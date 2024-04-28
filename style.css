@@ -43,6 +43,7 @@ img {
 }
 
 fieldset{
+    position:relative;
     padding-left: 9%; /* 90% of 10% */
     padding-top: 2.7%; /* 90% of 3% */
     padding-bottom: 2.7%; /* 90% of 3% */
@@ -97,7 +98,7 @@ input::placeholder{
 }
 
 .createAcc{
-    margin-top: 3%;
+    
     background-color: rgb(39, 39, 39);
     border-style: none;
     border-radius: 4px;

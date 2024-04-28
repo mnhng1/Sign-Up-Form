@@ -8,7 +8,8 @@ confirmPass.addEventListener('blur', function() {
         if (!mismatchPass) {
             mismatchPass = document.createElement("p");
             mismatchPass.id = "error-message";
-            mismatchPass.style = "font-size: 0.8em; margin-left:0; display: inline-block;";
+            mismatchPass.style = "font-size: 0.8em; margin-left:0; display: inline-block; position:relative"
+            mismatchPass.style.bottom = `${confirmPass.offsetHeight - 30}px`;
             passContainer.appendChild(mismatchPass);
             initialPass.style.borderColor = "red";
             confirmPass.style.borderColor ="red";
