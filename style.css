@@ -67,18 +67,21 @@ form{
 }
 
 .label {
+    margin-top: 20%;
     padding-top: 9%; /* 90% of 10% */
     display: block;
+    margin-bottom: 10%;
 }
 
 .input-container {
+    margin-top: 3%;
     width: 40.5%; /* 90% of 45% */
-    padding-bottom: 4.5%; /* 90% of 5% */
+    padding-bottom: 3%; /* 90% of 5% */
 }
 
 input{
-    width: 81%; /* 90% of 90% */
-    height: 36%; /* 90% of 40% */
+    width: 100%; /* 90% of 90% */
+    height: 30px; /* 90% of 40% */
     border-style: solid;
     border-radius: 4px;
     font-size: 14.4px; /* 90% of 16px */
@@ -94,6 +97,7 @@ input::placeholder{
 }
 
 .createAcc{
+    margin-top: 3%;
     background-color: rgb(39, 39, 39);
     border-style: none;
     border-radius: 4px;
@@ -105,12 +109,22 @@ input::placeholder{
     color: rgb(234, 234, 234);
     margin-left: 9%; /* 90% of 10% */
 }
-
+.createAcc:hover{
+    color: rgb(205, 204, 204);
+    cursor: pointer;
+}
 p{
     margin-top: 4.5%; /* 90% of 5% */
     margin-left: 9%; /* 90% of 10% */
+    font-family: Rubik;
+    margin-top: 3%;
 }
 
 .login{
     color: rgb(121, 122, 122);
+}
+
+.login:hover{
+    color: rgb(39, 39, 39);
+    cursor: pointer;
 }
