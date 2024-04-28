@@ -6,22 +6,104 @@
 body{
     display:flex;
     flex-direction: row;
+    background-color: rgb(249, 248, 248);
 }
 h3{
+    
     font-family: Rubik;
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 1%;
 }
-
+h4{
+    font-family: Rubik;
+    font-weight: normal;
+    color: rgb(43, 42, 42);
+    font-size: 30px;
+}
 img {
     width: 40vw;
     height: 100vh;
     object-fit: cover;
+    
 }
 
 .signup_display{
     margin-top: 5vh;
+    
+    
+}
+.quotes{
+    margin-top: 10vh;
     margin-left: 5vw;
     margin-right: 5vw;
+}
+fieldset{
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-color: rgb(214, 214, 214);
+    border-style: hidden;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 3%;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    flex-wrap: wrap;
+    font-weight: normal;
+    font-family: Rubik;
+    color:  rgb(88, 88, 88);
+    padding-right: 20%;
+    
+}
+
+label {
+    padding-top: 10%;
+    display: block;
+}
+
+.input-container {
+    width: 45%;
+    padding-bottom: 5%;
+}
+
+input{
+    width: 90%;
+    height: 40%;
+    border-style: solid;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Rubik;
+    padding-left: 3%;
+    border-color: rgb(227, 225, 225);
+}
+
+input::placeholder{
+    font-size: 16px;
+    font-family: Rubik;
+    color: rgb(192, 192, 192);
+}
+
+.createAcc{
+    background-color: rgb(39, 39, 39);
+    border-style: none;
+    border-radius: 4px;
+    width: 30%;
+    height: 6%;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(234, 234, 234);
+    margin-left: 10%;
+}
+
+.login{
+    margin-left: 10%;
+    color: rgb(121, 122, 122);
 }
