@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display:flex;
+    flex-direction: row;
+}
+h3{
+    font-family: Rubik;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-bottom: 1%;
+}
+
+img {
+    width: 40vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.signup_display{
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
